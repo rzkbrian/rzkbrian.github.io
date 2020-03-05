@@ -1,0 +1,90 @@
+# Site
+repository: rzkbrian/rzkbrian.github.io
+# favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
+
+# Personal info
+name: Brian Rodríguez
+title: Android Developer
+email: rzknairb@gmail.com
+phone: 948790426
+#website: https://google.com
+
+darkmode: false
+
+# Social links
+twitter_username: rzkbrian
+github_username:  rzkbrian
+#stackoverflow_username: "00000001"
+facebook_username: brian.rzk
+#instagram_username: jekyll
+linkedin_username: rzkbrian
+#youtube_username: jekyll
+#googleplus_username: +jekyll
+
+
+# Additional icon links
+#additional_links:
+#- title: Link name
+#  icon: fa-amazon
+#  url: Link url (eg. https://google.com)
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+# google_analytics: "UA-00000000-0"
+
+# About Section
+about_title: Sobre mí
+about_profile_image: assets/images/profile.jpg
+about_content: | # this will include new lines to allow paragraphs
+  Hola, me llamo Brian y soy desarrollador Android. Además de crear aplicaciones móviles, también tengo experiencia en la creación de aplicaciones web. He trabajado en varias empresas con equipos nacionales y extranjeros, ampliando mis habilidades de liderazgo.
+  
+  Algunos de mis principales Skills:
+    - <mark>Android Java</mark> <mark>Android Kotlin</mark> <mark>Flutter</mark>
+    - <mark>NodeJS</mark> <mark>ExpressJs</mark> <mark>ApiREST</mark> <mark>HTML5</mark>
+    - <mark>Git</mark> <mark>Git-flow</mark> <mark>SCRUM</mark>
+
+# Projects Section
+# projects_title: Projects #(Use this to override about projects section title)
+
+# Experience Section
+# experience_title: Experience #(Use this to override about experience section title)
+
+# Education Section
+# education_title: Education #(Use this to override about education section title)
+
+# More Section
+# more_title: A Little More About Me #(Use this to override about more section title)
+
+#more_content: | # this will include new lines to allow paragraphs
+#  This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
+
+#  Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
+
+# Footer
+footer_show_references: true
+
+# Build settings
+# theme: modern-resume-theme (Use this is you are hosting your resume yourself)
+# remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
+
+exclude : [
+  "Gemfile",
+  "Gemfile.lock",
+  "node_modules",
+  "vendor/bundle/",
+  "vendor/cache/",
+  "vendor/gems/",
+  "vendor/ruby/",
+  "lib/",
+  "scripts/",
+  "docker-compose.yml",
+  ]
