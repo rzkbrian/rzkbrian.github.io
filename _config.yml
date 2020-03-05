@@ -38,10 +38,10 @@ linkedin_username: rzkbrian
 about_title: Sobre mí
 about_profile_image: assets/images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hola, me llamo Brian y soy desarrollador Android. Además de crear aplicaciones móviles, también tengo experiencia en la creación de aplicaciones web. He trabajado en varias empresas con equipos nacionales y extranjeros, ampliando mis habilidades de liderazgo.
+  Hola, me llamo Brian y soy desarrollador Android. Me gusta crear aplicaciones móviles que representen un reto interesante y me motiven a seguir aprendiendo nuevas tecnologías, también tengo experiencia en la creación de aplicaciones web. He trabajado en varias empresas con equipos nacionales y extranjeros, ampliando mis habilidades de integración y liderazgo.
   
   Algunos de mis principales Skills:
-    - <mark>Android Java</mark> <mark>Android Kotlin</mark> <mark>Flutter</mark>
+    - <mark>Android Java</mark> <mark>Android Kotlin</mark> <mark>Flutter</mark> <mark>JUnit</mark>
     - <mark>NodeJS</mark> <mark>ExpressJs</mark> <mark>ApiREST</mark> <mark>HTML5</mark>
     - <mark>Git</mark> <mark>Git-flow</mark> <mark>SCRUM</mark>
 

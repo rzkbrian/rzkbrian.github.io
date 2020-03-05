@@ -1,9 +1,22 @@
 # Project template
 - layout: top-middle
-  name: Project name
-  link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-  github: Github page for project (eg. sproogen/modern-resume-theme)(optional)
+  name: Android-demo
+  link: https://github.com/rzkbrian/android-demo
+  github: rzkbrian/android-demo
   quote: >
-    Short overview of the project (optional)
+    Android demo app - Clean Architecture
   description: | # this will include new lines to allow paragraphs
-    Description about the work on/with the project
+    Aplicación android demostrativa hecha en <mark>Java</mark>, implementada con <mark>Clean Architecture</mark>, <mark>MVP</mark>, <mark>Butter Knife</mark>, <mark>Navigation Component</mark>. Actualmente tiene integrada una pequeña red social y recibe actualizaciones regularmente con nuevas características y componentes nuevos.
+
+- layout: top-middle
+  name: Flutter-demo
+  link: https://github.com/rzkbrian/flutter-demo
+  github: rzkbrian/flutter-demo
+  quote: >
+    Flutter demo app - Clean Architecture
+  description: | # this will include new lines to allow paragraphs
+    Aplicación android demostrativa hecha en <mark>Dart</mark> mediante <mark>Flutter</mark>, implementada con <mark>Clean Architecture</mark>, <mark>BLoC</mark>, <mark>BLoC Provider</mark>. Actualmente es una pequeña red social, espero proximamente incluir mejoras y nuevos features.
+
+    
+
+    
