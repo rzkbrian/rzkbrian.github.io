@@ -46,7 +46,7 @@ about_content: | # this will include new lines to allow paragraphs
     - <mark>Git</mark> <mark>Git-flow</mark> <mark>SCRUM</mark>
 
 # Projects Section
-# projects_title: Projects #(Use this to override about projects section title)
+projects_title: Projectos #(Use this to override about projects section title)
 
 # Experience Section
 # experience_title: Experience #(Use this to override about experience section title)
