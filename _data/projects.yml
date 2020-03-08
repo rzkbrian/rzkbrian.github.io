@@ -26,4 +26,12 @@
   description: | # this will include new lines to allow paragraphs
     Libreria hecha en <mark>Dart</mark> para aplicaciones <mark>Flutter</mark>, facilita la creacion de tablas, creación registros y consultas a base de datos. La libreria esta basada en [SqfLite](https://pub.dev/packages/sqflite). Cuenta con clases de ayuda para mejorar el performance de la librería.
 
-    
+   
+- layout: top-middle
+  name: Http Mutual Authentication
+  link: https://pub.dev/packages/http_mutual_authentication
+  github: rzkbrian/HttpMutualAuthentication
+  quote: >
+    Http Mutual Authentication library
+  description: | # this will include new lines to allow paragraphs
+    Libreria hecha en <mark>Dart</mark> para aplicaciones <mark>Flutter</mark>, envía la información cifrada desde el dispositivo móvil hasta el servidor mediante una llave pública.
