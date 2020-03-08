@@ -1,10 +1,30 @@
 # Experience template
 - layout: left
-  company: Company name
-  link: Link to company (optional)
-  job_title: Job title
-  dates: Date Range (eg. November 2016 - present)
+  company: Everis Perú
+  link: https://www.everis.com/peru/
+  job_title: Full Stack Developer
+  dates: Dic 2019 - present
   quote: >
-   Short description of the company (optional)
+   Full Stack Developer
   description: | # this will include new lines to allow paragraphs
-    Description of role
+    Desarrollo y mantenimiento de proyectos realizados en <mark>Java</mark>, tanto en el desarrollo backend como frontend. De la misma forma creando y manteniendo aplicaciones móviles <mark>Android</mark> para diversos clientes nacionales y extranjeros.
+
+- layout: left
+  company: Everis Perú
+  link: https://www.everis.com/peru/
+  job_title: Android Developer
+  dates: Octubre 2018 - Dic 2019
+  quote: >
+   Android Developer
+  description: | # this will include new lines to allow paragraphs
+    Desarrollo y mantenimiento de aplicaciones móviles <mark>Android</mark> con <mark>Java</mark> y <mark>Flutter</mark> para diversos clientes nacionales y extranjeros.
+
+- layout: left
+  company: CleverClouds Perú
+  link: http://www.cleverclouds.im/
+  job_title: Full Stack Developer
+  dates: Sep 2014 - Oct 2018
+  quote: >
+   Full Stack Developer
+  description: | # this will include new lines to allow paragraphs
+    Desarrollo y mantenimiento de proyectos realizados en <mark>Javascript</mark> con <mark>NodeJs</mark> para backend y frontend, así también creando móviles <mark>Android</mark> para diversos clientes .
