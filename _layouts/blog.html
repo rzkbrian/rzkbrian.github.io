@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: 'en' }}">
+
+{%- include head.html -%}
+
+<body class="{% if site.darkmode %}dark{% endif %}">
+
+    {%- include header.html -%}
+
+    <main class="page-content" aria-label="Content">
+        <div class="wrapper">
+
+            {%- if jekyll.environment == 'production' and site.gtm -%}
+            {%- include gtm_body.html -%}
+            {%- endif -%}
+
+
+            <div id="main">
+                <!-- Posts List -->
+                {% for _post in site.posts %}
+                    <a href="{{- _post.url | absolute_url -}}">{{- _post.title -}}</a>
+
+                    {% if _post.author -%}{{- _post.author }} | {% endif %}
+                    {{- _post.date | date_to_long_string -}}
+
+                    <p>{{- _post.excerpt | strip_html | truncatewords: 100 -}}</p>
+                    <a href="{{- _post.url | absolute_url -}}">read more</a>
+                    {%- assign _content = _excerpt | append: _link -%}
+
+                {% endfor %}
+            </div>
+
+
+            {%- if site.more_content -%}
+            {%- include more.html -%}
+            {%- endif -%}
+
+        </div>
+    </main>
+
+    {%- include footer.html -%}
+    <script src="{{ '/assets/js/index.js' | relative_url }}"></script>
+</body>
+
+</html>
