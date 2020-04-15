@@ -1,5 +1,6 @@
 ---
 title: My First post
+image: /assets/images/android.jpg
 layout: post
 ---
 
