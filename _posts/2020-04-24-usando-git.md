@@ -67,3 +67,12 @@ Para poder guardar los cambios del repositorio, primero se tiene que agregar los
 + Agregar todos los cambios: `git add .`
 
 Se tiene que tener cuidado al momento de agregar cambios, hay ciertos archivos que no se deben subir al servidor dependiendo la tecnología que se use, para evitar que GIT rastree estos archivos más adelante usaremos <mark>.gitignore</mark>
+<br><br>
+
+# Guardar cambios (`git commit -m`)
+Una vez que se agregan los cambios en el <mark>stage area</mark> el paso siguiente es guardarlos e identificarlo mediante un mensaje que represente los cambios realizados.
+
+Usamos `git commit -m "mensaje descriptivo"`, de esta manera guardaremos los cambios modificados en el proyecto.
+<br><br>
+
+
