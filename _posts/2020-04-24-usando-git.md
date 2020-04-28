@@ -89,4 +89,20 @@ Sentencia completa:
 # Actualizar o bajar cambios del servidor (`git pull`)
 Al igual que `git push`, éste comando tambien tiene el mismo cuerpo con la diferencia que en lugar de subir cambios (push), actualizaremos el repositorio local con los cambios que existen en el servidor con el fin de estar actualizados siempre con la última versión del código.
 + `git pull origin develop` - De ésta manera actualizaremos la rama <mark>develop</mark> de nuestro repositorio local.
+<br><br>
+
+# Actualizar las ramas remotas (`git fetch`)
+Este comando nos permite actualizar las ramas dependiendo el origen de los datos y tiene el siguiente cuerpo:
+- `git fetch origin` - De ésta manera actualizaremos todas las copias locales de las ramas remotas del repositorio `origin`.
+- `git fetch --all` - Actualiza todas las copias locales de las ramas remotas de todos los repositorios.
+<br><br>
+
+# Repositorios de origen (`git remote`)
+Este comando nos brinda el nombre del repositorio de la fuente de datos.
+
++ `git remote` - Informa el nombre del asignado a la fuente de datos.
++ `git remote --v` - Informa sobre la url de conexion ala fuente de datos, puede ser una conexión HTTP o SSH.
++ `git remote add <nombre_de_origen> <url_fuente_datos>` - Podemos añadir una nueva fuente de datos. <mark> nombre_de_origen </mark> debe ser reemplazado por el nombre correspondiente, generalmente y por defecto es `origin`, <mark>url_fuente_datos</mark> siempre será la url del repositorio remoto. Al final deberá quedar de la siguiente forma:
+    - `git remote add origin_two https://gitlab.com/rzkbrian.git`.
++ `git remote remove <origin> <url_source>` Elimina la fuente de datos del repositorio local.
 
