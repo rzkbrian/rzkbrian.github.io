@@ -72,7 +72,21 @@ Se tiene que tener cuidado al momento de agregar cambios, hay ciertos archivos q
 # Guardar cambios (`git commit -m`)
 Una vez que se agregan los cambios en el <mark>stage area</mark> el paso siguiente es guardarlos e identificarlo mediante un mensaje que represente los cambios realizados.
 
-Usamos `git commit -m "mensaje descriptivo"`, de esta manera guardaremos los cambios modificados en el proyecto.
+Usamos `git commit -m "mensaje descriptivo"`, de ésta manera guardaremos los cambios modificados en el proyecto.
 <br><br>
 
+# Enviar cambios al servidor (`git push`)
+Existen varios modos de enviar cambios al repositorio remoto, sin embargo la sentencia tiene un cuerpo que se detalla a continuación:
+- `git push` - Comando necesario para subir los commits al servidor.
+- `origin` - Es parte de la sentencia que hace referencia al nombre del repositorio remoto. Se detallará mas adelante.
+- `develop` - Se indica el nombre de la rama a la cual se enviarán los commits realizados.
+
+Sentencia completa:
++ `git push origin develop` - Envía los cambios a la rama <mark> develop </mark> del repositorio remoto.
++ `git push --all` - Este comando envía o sube al servidor todas las ramas locales que existan.
+<br><br>
+
+# Actualizar o bajar cambios del servidor (`git pull`)
+Al igual que `git push`, éste comando tambien tiene el mismo cuerpo con la diferencia que en lugar de subir cambios (push), actualizaremos el repositorio local con los cambios que existen en el servidor con el fin de estar actualizados siempre con la última versión del código.
++ `git pull origin develop` - De ésta manera actualizaremos la rama <mark>develop</mark> de nuestro repositorio local.
 
