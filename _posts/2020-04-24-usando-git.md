@@ -106,3 +106,11 @@ Este comando nos brinda el nombre del repositorio de la fuente de datos.
     - `git remote add origin_two https://gitlab.com/rzkbrian.git`.
 + `git remote remove <origin> <url_source>` Elimina la fuente de datos del repositorio local.
 
+# Crear ramas locales y remotas (`git branch`)
+Con git podemos crear ramas o una versión del código que actualmente estamos trabajando para después integrarlo con los cambios del resto del equipo.
+
++ `git branch nueva_rama` - Crea un nueva rama a partir de la rma actual donde de está trabajando. Luego para ir a la rama creada tendremos que usar `git checkout nueva_rama`.
++ `git checkout -b nueva_rama` - Es un atajo, el cual crea una nueva rama y te lleva directamente a ella.
+
+Para que la rama local se convierta en remota solo bastaría con hacer `git push origin nueva_rama` y automaticamente la nueva rama se creará en el repositorio remoto. Ésto esat sujeto a los permisos y niveles de seguridad del servidor remoto.
+
