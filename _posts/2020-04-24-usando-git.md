@@ -105,6 +105,7 @@ Este comando nos brinda el nombre del repositorio de la fuente de datos.
 + `git remote add <nombre_de_origen> <url_fuente_datos>` - Podemos añadir una nueva fuente de datos. <mark> nombre_de_origen </mark> debe ser reemplazado por el nombre correspondiente, generalmente y por defecto es `origin`, <mark>url_fuente_datos</mark> siempre será la url del repositorio remoto. Al final deberá quedar de la siguiente forma:
     - `git remote add origin_two https://gitlab.com/rzkbrian.git`.
 + `git remote remove <origin> <url_source>` Elimina la fuente de datos del repositorio local.
+<br><br>
 
 # Crear ramas locales y remotas (`git branch`)
 Con git podemos crear ramas o una versión del código que actualmente estamos trabajando para después integrarlo con los cambios del resto del equipo.
