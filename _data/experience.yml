@@ -1,9 +1,19 @@
 # Experience template
 - layout: left
+  company: Nisum Chile
+  link: https://www.nisumlatam.com/
+  job_title: Android Developer
+  dates: Sep 2020 - present
+  quote: >
+   Android Developer
+  description: | # this will include new lines to allow paragraphs
+    Desarrollador android con <mark>Java</mark> y <mark>Kotlin</mark>, para diferentes clientes nacionales y extranjeros.
+
+- layout: left
   company: Everis Perú
   link: https://www.everis.com/peru/
   job_title: Full Stack Developer
-  dates: Dic 2019 - present
+  dates: Dic 2019 - Sep 2020
   quote: >
    Full Stack Developer
   description: | # this will include new lines to allow paragraphs
